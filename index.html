@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="home.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -34,18 +36,13 @@
                 <div class="alldiv">
                     <div class="leftside-sec">
                         <h1>ax<span>it</span></h1>
-
                         <h2>MODERN AXURE TEMPLATE<br>FOR BEAUTIFUL PROTOTYP ES</h2>
-
-                        <p class="lines">
-                            <hr>
-                        </p>
-                        <p class="bothside">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
-                        </p>
+                        <p class="lines"><hr></p>
+                        <p class="bothside">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
                         <button type="button">Download</button>
                     </div>
-                    <div class="rightside-sec">
+                    <div class="rightside-sec" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="3000">
                         <div class="right-side-section">
                             <h2>Try Your <span>Free</span> Trial Today</h2>
                             <form class="formtags" action="">
@@ -88,9 +85,9 @@
             <div class="three-sec">
                 <div class="middle-ones">
                     <div class="sec-1">
-                        <div class="tab1">Tab 1</div>
-                        <div class="tab2">Tab 2</div>
-                        <div class="tab2">Tab 3</div>
+                        <div class="tab1" data-aos="fade-left" data-aos-duration="3000">Tab 1</div>
+                        <div class="tab2" data-aos="fade-right" data-aos-duration="3000">Tab 2</div>
+                        <div class="tab2" data-aos="fade-left" data-aos-duration="3000">Tab 3</div>
                     </div>
                     <div class="sec-2">
                         <h2>Tabs with soft transitioning effect.</h2>
@@ -106,7 +103,7 @@
                         <button type="button">Download</button>
                     </div>
                 </div>
-                <div class="sec-3">
+                <div class="sec-3" data-aos="flip-down" data-aos-duration="3000">
                     <img src="image_right_u255.png" alt="">
                 </div>
             </div>
@@ -116,7 +113,7 @@
     <section class="features2">
         <div class="wraper">
             <div class="two-section">
-                <div class="left-seco">
+                <div class="left-seco" data-aos="zoom-out-left" data-aos-duration="2000">
                     <img src="image_left_sub_list_u260.png" alt="">
                 </div>
                 <div class="right-seco">
@@ -163,7 +160,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="std2">
+                <div class="std2" data-aos="zoom-out-right" data-aos-duration="2000">
                     <img src="image_right_standard_u262.png" alt="">
                 </div>
             </div>
@@ -221,7 +218,8 @@
 
             <div class="types-pricing-slot">
 
-                <div class="pricing-slot1">
+                <div class="pricing-slot1" data-aos="fade-up"
+                data-aos-duration="3000">
                     <div class="basic-info">
                         <h4>Basic</h4>
                         <div class="population">
@@ -240,7 +238,8 @@
                     </div>
                 </div>
 
-                <div class="pricing-slot1 seprate-margin">
+                <div class="pricing-slot1 seprate-margin" data-aos="fade-down"
+                data-aos-duration="3000">
                     <div class="basic-info">
                         <h4>Professional</h4>
                         <div class="population">
@@ -261,7 +260,8 @@
                 </div>
 
 
-                <div class="pricing-slot1">
+                <div class="pricing-slot1" data-aos="fade-up"
+                data-aos-duration="3000">
                     <div class="basic-info">
                         <h4>Enterprise</h4>
                         <div class="population">
@@ -295,7 +295,7 @@
 
             <div class="second-testi">
 
-                <div class="threetesty">
+                <div class="threetesty"  data-aos="fade-right" data-aos-duration="3000">
                     <div class="a9">
                         <p>Lorem ipsum dolor sit amet,
                             consectetur adipisicing elit. Doloribus
@@ -315,7 +315,7 @@
                     </div>
                 </div>
 
-                <div class="threetesty">
+                <div class="threetesty"  data-aos="fade-up" data-aos-duration="3000">
                     <div class="a9">
                         <p>Lorem ipsum dolor sit amet,
                             consectetur adipisicing elit. Doloribus
@@ -333,7 +333,7 @@
                     </div>
                 </div>
 
-                <div class="threetesty">
+                <div class="threetesty"  data-aos="fade-left" data-aos-duration="3000">
                     <div class="a9">
                         <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit. Doloribus accusamus expe dita
                             repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
@@ -388,7 +388,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divbtn">
+                <div class="divbtn" data-aos="flip-left" data-aos-duration="3000">
                     <button type="button">Send Message</button>
                 </div>
             </div>
@@ -422,7 +422,10 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
